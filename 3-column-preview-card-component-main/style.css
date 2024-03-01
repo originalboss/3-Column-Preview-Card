@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+
+@media screen and (max-width:900px){
+    body{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    main.card{
+        width: 300px;
+    }
+    
+    div.Sedan{
+        height: 300px;
+        background-color: hsl(31, 77%, 52%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: white;
+        
+    
+    }
+    strong{
+        display: block;
+        font-size: 30px;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 700;
+        
+    }
+    
+    div.Sedan P{
+        margin: 0;
+        padding-right: 50px;
+    }
+    
+    div.Sedan svg{
+        position: relative;
+        margin-left: 0px;
+    }
+    
+    button.Sedan{
+        margin: 0px 60px;
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        border: 2px solid transparent;
+        color:hsl(31, 77%, 52%);
+    }
+    
+    
+    
+    
+    
+    div.SUV{
+        height: 300px;
+        background-color: hsl(184, 100%, 22%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: white;
+        
+    
+    }
+    
+    div.SUV P{
+        margin: 0;
+        padding-right: 50px;
+    }
+    
+    div.SUV svg{
+        position: relative;
+        margin-left: 0px;
+    }
+    
+    button.SUV{
+        margin: 0px 60px;
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        border: 2px solid transparent;
+        color:hsl(184, 100%, 22%);
+    }
+    
+    
+    
+    
+    div.Luxury{
+        height: 300px;
+        background-color: hsl(179, 100%, 13%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: white;
+        
+    
+    }
+    
+    div.Luxury P{
+        margin: 0;
+        padding-right: 50px;
+    }
+    
+    div.Luxury svg{
+        position: relative;
+        margin-left: 0px;
+    }
+    
+    button.LUX{
+        margin: 0px 60px;
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        border: 2px solid transparent;
+        color:hsl(179, 100%, 13%);
+    }
+    
+    
+    
+    
+}
+@media screen and (min-width:900px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    main.card{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+        height: 500px;
+       
+
+    }
+    strong{
+        display: block;
+        font-size: 35px;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+    div.Sedan{
+
+        height: 485px;
+        background-color: hsl(31, 77%, 52%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: white;
+    }
+    div.SUV{
+        height: 485px;
+        background-color: hsl(184, 100%, 22%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: white;
+    }
+    div.Luxury{
+        height: 485px;
+        background-color: hsl(179, 100%, 13%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: flex-start;
+        flex-flow: column;
+        justify-content: space-around;
+        padding: 20px;
+        color: white;
+    }
+
+    button.LUX{
+        margin: 0px 60px;
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        border: 2px solid transparent;
+        color:hsl(179, 100%, 13%);
+    }
+    button.SUV{
+        margin: 0px 60px;
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        border: 2px solid transparent;
+        color:hsl(184, 100%, 22%);
+    }
+    button.Sedan{
+        margin: 0px 60px;
+        border-radius: 20px;
+        width: 125px;
+        height: 40px;
+        border: 2px solid transparent;
+        color:hsl(31, 77%, 52%);
+    }
+
+
+    div.Sedan P{
+        margin: 0;
+        padding-right: 50px;
+    }
+    div.SUV P{
+        margin: 0;
+        padding-right: 60px;
+    }
+    div.Luxury P{
+        margin: 0;
+        padding-right: 50px;
+    }
+
+    button.Sedan:hover, button.SUV:hover, div.Luxury button:hover{
+
+       transform: translateY(-10px) rotate(720deg);
+       transition: 1s;
+       cursor: pointer;
+
+
+    }
+    
+
+    
+}
